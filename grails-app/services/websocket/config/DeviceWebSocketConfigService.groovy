@@ -10,6 +10,9 @@ import org.springframework.web.socket.server.support.HttpSessionHandshakeInterce
 import websocket.handler.WebsocketDevicePointService
 import websocket.interceptor.HandshakeInterceptor
 
+/**
+ * 初始化 websocket 設定
+ */
 @Configuration
 @Transactional
 @EnableWebSocket
