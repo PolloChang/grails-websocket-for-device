@@ -10,7 +10,7 @@
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
 
     <asset:stylesheet src="application.css"/>
-
+    <asset:javascript src="application.js"/>
     <g:layoutHead/>
 </head>
 
@@ -67,7 +67,7 @@
     <g:message code="spinner.alt" default="Loading&hellip;"/>
 </div>
 
-<asset:javascript src="application.js"/>
+
 
 </body>
 </html>

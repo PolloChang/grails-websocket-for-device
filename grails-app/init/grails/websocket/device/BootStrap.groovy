@@ -1,4 +1,4 @@
-package grails.websocket.for.device
+package grails.websocket.device
 
 class BootStrap {
 

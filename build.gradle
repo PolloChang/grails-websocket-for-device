@@ -11,7 +11,7 @@ buildscript {
 }
 
 version "0.1"
-group "grails.websocket.for.device"
+group "grails.websocket.device"
 
 apply plugin:"eclipse"
 apply plugin:"idea"
@@ -73,6 +73,9 @@ dependencies {
     testImplementation "org.seleniumhq.selenium:selenium-support:4.0.0"
     testRuntimeOnly "org.seleniumhq.selenium:selenium-chrome-driver:4.0.0"
     testRuntimeOnly "org.seleniumhq.selenium:selenium-firefox-driver:4.0.0"
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-websocket
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-websocket', version: '2.7.3'
 }
 
 bootRun {
